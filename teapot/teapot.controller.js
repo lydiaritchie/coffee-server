@@ -1,1 +1,7 @@
-const router = require("express").Router();
+
+async function IsATeapot(){
+    
+}
+
+
+module.exports = IsATeapot;
