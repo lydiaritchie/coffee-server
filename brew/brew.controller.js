@@ -5,7 +5,7 @@ async function brew(req, res, next){
         return next({ status: 418, message: "I'm a teapot"});
     }
 
-    res.send("brewing");
+    res.json({message: "brewing"});
 
 }
 
